@@ -1,4 +1,4 @@
-# LLM 速度测试
+# LLM 速度测试 - 7B 单卡
 
 使用模型 `Mistral-7B-Instruct-v0.2`
 
@@ -116,12 +116,17 @@ Average: `55.012 tokens/s`
 - 加载后：`10388 MiB`
 - 1024tokens 推理后：`9672 MiB`
 
-## GGUF Q8_0
+## GGUF Q4_K_M
 
 ```
+Output generated in 17.06 seconds (59.92 tokens/s, 1024 tokens, context 1, seed 689169851)
+Output generated in 18.38 seconds (55.71 tokens/s, 1024 tokens, context 1, seed 236387285)
+Output generated in 16.57 seconds (61.68 tokens/s, 1022 tokens, context 1, seed 1253491230)
+Output generated in 18.53 seconds (55.25 tokens/s, 1024 tokens, context 1, seed 283396031)
+
 ```
 
-Average: `55.012 tokens/s`
+Average: `58.14 tokens/s`
 
-- 加载后：`10388 MiB`
-- 1024tokens 推理后：`9672 MiB`
+- 加载后：`10564 MiB`
+- 1024tokens 推理后：`10707 MiB`
