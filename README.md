@@ -4,7 +4,8 @@
 
 其余见 [34B 单卡](34.md) / [并行](gpus.md)
 
-![Uploading image.png…]()
+![image](https://github.com/Ce-daros/LLM_Speedtest/assets/64960661/faa53ca6-6648-4881-86b4-516fb6855935)
+
 
 
 # 测试平台
