@@ -2,6 +2,8 @@
 
 使用模型 `Mistral-7B-Instruct-v0.2`
 
+其余见 [34B 单卡](34.md) / [并行](gpus.md)
+
 # 测试平台
 
 使用 [AutoDL](www.autodl.com) 算力租赁平台完成测试。
@@ -109,16 +111,6 @@ Output generated in 18.38 seconds (55.65 tokens/s, 1023 tokens, context 1, seed 
 Output generated in 18.97 seconds (53.94 tokens/s, 1023 tokens, context 1, seed 1370149021)
 Output generated in 19.06 seconds (53.68 tokens/s, 1023 tokens, context 1, seed 319849706)
 Output generated in 18.26 seconds (56.03 tokens/s, 1023 tokens, context 1, seed 200310089)
-```
-
-Average: `55.012 tokens/s`
-
-- 加载后：`10388 MiB`
-- 1024tokens 推理后：`9672 MiB`
-
-## GGUF Q8_0
-
-```
 ```
 
 Average: `55.012 tokens/s`
