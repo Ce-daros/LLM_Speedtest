@@ -3,7 +3,9 @@
 使用模型 `Mistral-7B-Instruct-v0.2`
 
 其余见 [34B 单卡](34.md) / [并行](gpus.md)
-![image](https://github.com/Ce-daros/LLM_Speedtest/assets/64960661/db1565cc-97a3-4a00-ab42-33abb8a088a8)
+
+![Uploading image.png…]()
+
 
 # 测试平台
 
