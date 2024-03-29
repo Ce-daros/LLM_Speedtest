@@ -115,13 +115,3 @@ Average: `55.012 tokens/s`
 
 - 加载后：`10388 MiB`
 - 1024tokens 推理后：`9672 MiB`
-
-## GGUF Q8_0
-
-```
-```
-
-Average: `55.012 tokens/s`
-
-- 加载后：`10388 MiB`
-- 1024tokens 推理后：`9672 MiB`
